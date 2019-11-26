@@ -1,0 +1,5 @@
+const fs = require ('fs') 
+console.log ('antes de llamar a read del fichero') 
+const archivo = fs.readFileSync ( '/etc/passwd', 'utf8' ) 
+console.log (archivo) 
+console.log ('después de llamar a read del fichero') 

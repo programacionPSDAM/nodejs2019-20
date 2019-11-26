@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_nuevo",
+  "version": "1.0.0",
+  "description": "Ejemplo de creacion de package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon watch src/servidorWeb1.js"
+  },
+  "keywords": [
+    "aplicacion",
+    "web",
+    "rest",
+    "...."
+  ],
+  "author": "Manuel Molino",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.0",
+    "readline-sync": "^1.4.10",
+    "simple-menu": "^1.0.1"
+  }
+}
